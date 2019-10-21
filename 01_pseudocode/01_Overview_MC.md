@@ -62,7 +62,7 @@ the USB drive
 
 A type of memory that can hold data for long periods of time—even when there is no power to the computer––is called         .
 
-RAM
+X RAM
 
 main memory
 
@@ -76,13 +76,13 @@ an output device
 
 an input device
 
-a secondary storage device
+X a secondary storage device
 
 main memory
 
 A video display is a(n)         .
 
-output device
+Xoutput device
 
 input device
 
@@ -92,7 +92,7 @@ main memory
 
 A___________-is enough memory to store a letter of the alphabet or a small number.
 
-byte
+X byte
 
 bit
 
@@ -126,7 +126,7 @@ A bit that is turned off represents the following value:         .
 
 −1
 
-0
+X 0
 
 “no”
 
@@ -134,7 +134,7 @@ A set of 128 numeric codes that represent the English letters, various punctuati
 
 binary numbering
 
-ASCII
+X ASCII
 
 Unicode
 
@@ -146,13 +146,13 @@ binary numbering
 
 ASCII
 
-Unicode
+X Unicode
 
 ENIAC
 
 Negative numbers are encoded using the____________technique.
 
-two’s complement
+X two’s complement
 
 floating-point
 
@@ -164,7 +164,7 @@ Real numbers are encoded using the____________technique.
 
 two’s complement
 
-floating-point
+X floating-point
 
 ASCII
 
@@ -178,13 +178,13 @@ bytes
 
 color packets
 
-pixels
+X pixels
 
 If you were to look at a machine language program, you would see______________.
 
 Java code
 
-a stream of binary numbers
+X a stream of binary numbers
 
 English words
 
@@ -194,7 +194,7 @@ In the_______________part of the fetch-decode-execute cycle, the CPU determines 
 
 fetch
 
-decode
+X decode
 
 execute
 
@@ -206,13 +206,13 @@ Java
 
 assembly language
 
-machine language
+X machine language
 
 C++
 
 The____________translates an assembly language program to a machine language program.
 
-assembler
+X assembler
 
 compiler
 
@@ -228,11 +228,11 @@ mnemonics
 
 commands
 
-key words
+X key words
 
 The rules that must be followed when writing a program are called______________.
 
-syntax
+X syntax
 
 punctuation
 
@@ -244,7 +244,7 @@ A(n)_____________program translates a high-level language program into a separat
 
 assembler
 
-compiler
+X compiler
 
 translator
 
