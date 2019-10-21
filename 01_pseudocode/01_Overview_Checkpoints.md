@@ -1,6 +1,6 @@
 # Checkpoint
 1.1 What is a program?
-
+This is a test.
 1.2 What is hardware?
 
 1.3 List the five major components of a computer system.
