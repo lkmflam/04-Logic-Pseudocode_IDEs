@@ -29,11 +29,12 @@ A mobile phone app allows a user to press a button that starts a timer that coun
 
 ```
 Declare String 1stPrize
-
+// "1stPrize"
 Display "Enter the award for first prize."
 Input 1stPrize
 
 Display "The first prize winner will receive "' 1stPrize
+// Remove the single quote on the end and replace with a comma 
 ```
 
 ---
@@ -42,7 +43,7 @@ Display "The first prize winner will receive "' 1stPrize
 
 ```
 Declare Real lowest, highest, average
-
+// Declare each separately
 Display "Enter the lowest score."
 Input lowest
 
@@ -50,8 +51,9 @@ Display "Enter the highest score."
 Input highest
 
 Set average = low + high/2
+// (low + high) / 2
 Display "The average is ", average, "."
-
+//  "The average is  .", average    Just leave a space for the average within the quotes
 ```
 
 ---
@@ -62,7 +64,7 @@ Display "The average is ", average, "."
 Display "Enter the length of the room."
 Input length 
 Declare Integer length
-
+// Declare length before, not after
 ```
 
 ---
@@ -85,7 +87,7 @@ Input value3
 Display "The sum of numbers is ", sum
 
 ```
-
+// Set the sum after taking input for all of the values
 ---
 
 * Find the error in the following pseudocode
@@ -95,7 +97,7 @@ Declare Real pi
 Set 3.14159265 = pi
 Display "The value of pi is ". pi
 ```
-
+// Set pi = the number, not the other way around. And after the display use a comma, not a period.
 ---
 
 * Find the error in the following pseudocode.
@@ -107,7 +109,7 @@ Display "Earth: ", GRAVITY, " meters per second every second."
 Set GRAVITY = 1.63
 Display "Moon: ", GRAVITY, " meters per second every second."
 ```
-
+// "Objet" should be object. You set GRAVITY as a constant up top but then changed it at the bottom as well. For the moon's gravity, change the variable to comething like moonGravity.
 ---
 
 |[Next Topic](/01_pseudocode/02_pseudocode.md)|
