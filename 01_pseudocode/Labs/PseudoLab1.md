@@ -53,7 +53,7 @@ Input highest
 Set average = low + high/2
 // (low + high) / 2
 Display "The average is ", average, "."
-//  "The average is  .", average    Just leave a space for the average within the quotes
+//  "The average is  .", average    Just leave a space for the average within the quotes. Alos, do not forget loset and highest instead of high and low.
 ```
 
 ---
@@ -109,7 +109,7 @@ Display "Earth: ", GRAVITY, " meters per second every second."
 Set GRAVITY = 1.63
 Display "Moon: ", GRAVITY, " meters per second every second."
 ```
-// "Objet" should be object. You set GRAVITY as a constant up top but then changed it at the bottom as well. For the moon's gravity, change the variable to comething like moonGravity.
+// "Objet" should be object. You set GRAVITY as a constant up top but then changed it at the bottom as well. For the moon's gravity, change the variable to comething like moonGravity. Gravity should not be all caps unless it is a constant.
 ---
 
 |[Next Topic](/01_pseudocode/02_pseudocode.md)|

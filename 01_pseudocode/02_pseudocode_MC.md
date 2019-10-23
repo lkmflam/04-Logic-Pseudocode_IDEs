@@ -6,7 +6,7 @@ syntax
 
 hardware
 
-logic
+X logic
 
 fatal
 
@@ -14,7 +14,7 @@ A__________is a single function that the program must perform in order to satisf
 
 task
 
-software requirement
+X software requirement
 
 prerequisite
 
@@ -24,7 +24,7 @@ A(n)_________-is a set of well-defined logical steps that must be taken to perfo
 
 logarithm
 
-plan of action
+X plan of action
 
 logic schedule
 
@@ -34,7 +34,7 @@ An informal language that has no syntax rules, and is not meant to be compiled o
 
 faux code
 
-pseudocode
+X pseudocode
 
 Java
 
@@ -42,7 +42,7 @@ a flowchart
 
 A_________is a diagram that graphically depicts the steps that take place in a program.
 
-flowchart
+X flowchart
 
 step chart
 
@@ -56,7 +56,7 @@ serial program
 
 sorted code
 
-sequence structure
+X sequence structure
 
 ordered structure
 
@@ -66,13 +66,13 @@ sequence structure
 
 character collection
 
-string
+X string
 
 text block
 
 A_________is a storage location in memory that is represented by a name.
 
-variable
+X variable
 
 register
 
@@ -84,7 +84,7 @@ A_________is any hypothetical person that is using a program and providing input
 
 designer
 
-user
+X user
 
 guinea pig
 
@@ -98,13 +98,13 @@ input statement
 
 directive
 
-prompt
+X prompt
 
 A(n)_________sets a variable to a specified value.
 
 variable declaration
 
-assignment statement
+X assignment statement
 
 math expression
 
@@ -114,7 +114,7 @@ In the expression 12 + 7, the values on the right and left of the
 +
  symbol are called_________.
 
-operands
+X operands
 
 operators
 
@@ -128,13 +128,13 @@ modulus
 
 multiplication
 
-exponent
+X exponent
 
 operand
 
 A(n)_________operator performs division, but instead of returning the quotient it returns the remainder.
 
-modulus
+X modulus
 
 multiplication
 
@@ -150,13 +150,13 @@ variable specification
 
 variable certification
 
-variable declaration
+X variable declaration
 
 Assigning a value to a variable in a declaration statement is called_________.
 
 allocation
 
-initialization
+X initialization
 
 certification
 
@@ -164,7 +164,7 @@ programming style
 
 A(n)_________variable is one that has been declared, but has not been initialized or assigned a value.
 
-undefined
+X undefined
 
 uninitialized
 
@@ -178,7 +178,7 @@ static variable
 
 uninitialized variable
 
-named constant
+X named constant
 
 locked variable
 
@@ -190,11 +190,11 @@ role playing
 
 mental simulation
 
-hand tracing
+X hand tracing
 
 Short notes placed in different parts of a program, explaining how those parts of the program work, are called_________.
 
-comments
+X comments
 
 reference manuals
 

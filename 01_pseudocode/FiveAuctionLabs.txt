@@ -1,0 +1,56 @@
+ShoppingBay is an online auction service that requires several reports. Data for each auctioned item includes an ID number, item description, length of auction in days, and minimum required bid. Design a flowchart or pseudocode for the following:
+ * A program that accepts data for one auctioned item. Display data for an auction only if the minimum required bid is more than $250.00.
+ * A program that continuously accepts auction item data until a sentinel value is entered and displays all data for auctions in which the minimum required bid is more than $300.00.
+ * A program that continuously accepts auction item data and displays data for every auction in which there are no bids yet (in other words, the minimum bid is $0.00) and the length of the auction is seven days or less.
+ * A program that continuously accepts auction data and displays data for every auction in which the length is between 14 and 28 days inclusive.
+ * A program that prompts the user for a maximum required bid, and then continuously accepts auction data and displays data for every auction in which the minimum bid is less than or equal to the amount entered by the user.
+ Declare IDNumber
+ Declare itemDescription
+ Declare lenghtOfAuction
+ Declare minimumRequiredBid
+ Declare auctionedItem
+
+main()
+ Declare variable auctionedItem
+ Declare int IDNumber
+ Declare string itemDescription
+ Declare int lenghtOfAuction
+ Declare real minimumRequiredBid
+ Declare real actualBid
+ auctionItems()
+   Display "Enter the name of the auctioned item."
+     Input auctionedItem
+   Display Enter your bid for the item."
+     Input actualBid
+   If actualBid < 300 then
+    Display "Sorry, your bid does not meet the minimum requirements."
+   Else 
+        Display "Enter the ID number of the item"
+        Input IDNumber
+        Display "Enter the item description"
+        Input itemDescription
+        Display "Enter the length of the auction"
+        Input lengthOfAuction 
+
+
+Start
+Declare Integer IDNumber
+Declare Integer numDays
+Declare Real minRequiredBid
+Declare string itemDesc
+Constant Real MIN_BID = 0.00
+Constant Integer MAX_DAYS = 7
+Constant Integer SENTINEL = -1
+Stop
+
+While True
+  Input IDNumber
+  If numDays < lenghtOfAuction then
+    Input numDays
+  If minRequiredBid >= MIN_BID
+    Input minRequiredBid
+  Input itemDesc
+  Display IDNumber, numDays, minRequiredBid, itemDesc
+  Display "What you like to continue or are you finished? Enter -1 if you are done or anything else to continue."
+  Input
+

@@ -1,22 +1,28 @@
 # Checkpoint
 4.1 What is a control structure?
-
+Logical structure, makes sense,  easy to follow
 4.2 What is a decision structure?
-
-4.3What is a single alternative decision structure?
-
+Giving options for the program to go through, set structure
+4.3 What is a single alternative decision structure?
+One single path
 4.4 What is a Boolean expression?
-
+True or false
 4.5 What types of relationships between values can you test with relational operators?
-
+greater-than, less-than, equal to, not equal to, greater-than or equal to, less -than or not equal to
 4.6 Write a pseudocode If-Then statement that assigns 0 to x if y is equal to 20.
-
+If y == 20then
+  set x = 0
+endif
 4.7 Write a pseudocode If-Then statement that assigns 0.2 to commission if sales is greater than or equal to 10,000.
+If sales >= 10000 then
+   set comm = 0.2
+end if
 4.8 How does a dual alternative decision structure work?
 
 4.9 What statement do you use in pseudocode to write a dual alternative decision structure?
-
+If else
 4.10 When you write an If-Then-Else statement, under what circumstances do the statements that appear between Else and End If execute?
+When the condition is false
 4.11 If the following pseudocode were an actual program, what would it display?
 ```
 If "z" < "a" Then
@@ -25,6 +31,7 @@ Else
    Display "z is not less than a."
 End If
 ```
+Z is not less than a 
 4.12 If the following pseudocode were an actual program, what would it display?
 ```
 Declare String s1 = "New York"
@@ -37,7 +44,7 @@ Else
    Display s2
 End If
 ```
-
+Boston New York
 4.13 How does a dual alternative decision structure work?
 
 4.14 What statement do you use in pseudocode to write a dual alternative decision structure?
@@ -48,15 +55,12 @@ End If
 ```
 If number == 1 Then
    Display "One"
-Else
-   If number == 2 Then
+   ElseIf number == 2 Then
       Display "Two"
+   ElseIf number == 3 Then
+      Display "Three"
    Else
-      If number == 3 Then
-         Display "Three"
-      Else
-        Display "Unknown"
-      End If
+      Display "Unknown"
    End If
 End If
 ```
