@@ -5,9 +5,77 @@
 
 Design a payroll program that prompts the user to enter an employee’s hourly pay rate and the number of hours worked. Validate the user’s input so that only pay rates in the range of $7.50 through $18.25 and hours in the range of 0 through 40 are accepted. The program should display the employee’s gross pay.
 
+Declare real hoursWorked			>>> Could put grossPay into a currency function.
+Declare real payRate
+Declare real grossPay
+
+Function real grossPayCalc(Real hoursWorked, Real payRate)
+	return hoursWorked * payRate
+End Function
+main()
+	Display "Please enter the hours worked in a typical week."
+	Input hoursWorked
+		If 0 > hoursWorked OR hoursWorked > 40 then
+			Display "This is not a valid entry. Do not scam me. Try again."
+			Input hoursWorked
+		End If
+	Display "Please enter your typical hourly pay rate for that same week."
+	Input payRate 
+		If 7.50 > payRate < 18.25 then
+			Display "You're a scammer and you know that isn't correct. Please try again."
+			Input payRate
+		End If
+	Set grossPay = grossPayCalc(grossPay, payRate)
+		Display " Your weekly gross pay is ", grossPay
+End
+		
 ## Theater Seating Revenue with Input Validation
 
 A dramatic theater has three seating sections, and it charges the following prices for tickets in each section: section A seats cost $20 each, section B seats cost $15 each, and section C seats cost $10 each. The theater has 300 seats in section A, 500 seats in section B, and 200 seats in section C. Design a program that asks for the number of tickets sold in each section and then displays the amount of income generated from ticket sales. The program should validate the numbers that are entered for each section.
+
+SO Program cannot allow you to enter a number higher than the seat amount available in each section.
+Multiply the number of seats sold in each section by the amount for that section's ticket price.
+Hardcode the ticket price in and let the customer input what section they are entering for 
+	Need (COSTA * seatsA) + (COSTB * seatsB) + (COSTC * seatsC) = totalIncome
+	
+Declare constant real COSTA = 20
+Declare constant real COSTB = 15
+Declare constant real COSTC = 10
+Declare real seatsA
+Declare real SeatsB
+Declare real SeatsC
+Declare real SoldInA
+Declare real SoldInB
+Declare real SoldInC
+Declare real totalA
+Declare real totalB
+Declare real totalC
+Declare real totalIncome
+
+Function Real SoldInA(real COSTA, real seatsA)
+	return COSTA * seatsA
+End Function
+
+Function Real SoldInB(real COSTB, real seatsB)
+	return COSTB * seatsB
+End Function
+
+Function Real SoldInC(real COSTC, real seatsC)
+	return COSTC * seatsC
+End Function
+
+Function Real IncomeAnalysis(real SoldInA, real SoldInB, real SoldInC)
+	return SoldInA + SoldInB + SoldInC
+End Function
+
+main()
+	Display "Please enter the number of seats that were sold in section A."
+		Input seatsA
+			If 0 > seatsA OR seatsA > 300 then
+				Display "Sorry, but that value isn't quite right. Please input the 					correct value."
+				Input seatsA
+			End If
+	Set totalA = SoldInA(COSTA, seatsA)
 
 ## Fat Gram Calculator
 
