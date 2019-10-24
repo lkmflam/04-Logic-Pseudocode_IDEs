@@ -8,9 +8,36 @@ The area of a rectangle is calculated according to the following formula:
 
 Design a function that accepts a rectangle’s width and length as arguments and returns the rectangle’s area. Use the function in a program that prompts the user to enter the rectangle’s width and length, and then displays the rectangle’s area.
 
+Function Real rectArea(real num1, real num2)
+   Return num1 * num2
+End Function
+
+main()
+  Display "Please enter the width"
+  Input num1
+  Display "Please now enter the length"
+  Input num2
+  Set area = rectArea(num1, num2)
+    Display Area
+ End
+  
+
 ## Feet to Inches
 
 One foot equals 12 inches. Design a function named feetToInches that accepts a number of feet as an argument, and returns the number of inches in that many feet. Use the function in a program that prompts the user to enter a number of feet and then displays the number of inches in that many feet.
+
+Function Real feetToInches(real numFeet)
+  return numFeet * 12
+End Function
+
+main()
+  Declare real numberOfFeet
+  Declare real result
+  
+  Display "Please enter the number of feet"
+  Input numberOfFeet
+  Set result = feetToInches(numberOfFeet)
+    Display result
 
 ## Math Quiz
 
@@ -21,9 +48,38 @@ Design a program that gives simple math quizzes. The program should display two 
 ```
 The program should allow the student to enter the answer. If the answer is correct, a message of congratulations should be displayed. If the answer is incorrect, a message showing the correct answer should be displayed.
 
+Function Real simpleMathQuiz( real num1, real num2)
+  Return num1 + num2
+ End Function
+ 
+ Declare number1
+ Declare number2
+ Declare total
+ Declare userTotal
+ 
+ main()
+  Display "Please enter your first number"
+  Input number1
+  Display "Please enter your second number"
+  Input number2
+  Display "Please enter your answer to the problem"
+  Set total = simpleMathQuiz(number1, number2)
+  
+    If userTotal == total
+     Display "That's correct!"
+     Else 
+      Display "Try again"
+     Display "Here is what you entered: ", userTotal
+     Display "Here is what the correct answer was ", total
+    End if
+  End
+  
 ## Maximum of Two Values
 
 Design a function named max that accepts two integer values as arguments and returns the value that is the greater of the two. For example, if 7 and 12 are passed as arguments to the function, the function should return 12. Use the function in a program that prompts the user to enter two integer values. The program should display the value that is the greater of the two.
+
+Function Real max(num1, num2)
+  return 
 
 ## Falling Distance
 
