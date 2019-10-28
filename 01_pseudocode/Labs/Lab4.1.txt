@@ -26,23 +26,32 @@ See program below,  the Sales Tax program. This program calculates and displays 
 Declare Real purchase, stateTax, countyTax, totalTax, totalSale
 
 // Constants for the state and county tax rates
-Constant Real STATE_TAX_RATE = 0.04
+Constant Real STATE_TAX_RATE = 0.04		Come back to, discuss the top parentheses
 Constant Real COUNTY_TAX_RATE = 0.02
+Call StateSalesTaxFunc(STATE_TAX_RATE)
+Call CountySalesTaxFunc(COUNT_TAX_RATE)
+Call TotalTaxFunc(stateTax, countyTax)
+Call TotalSaleFunc()
+
 
 // Get the amount of the purchase.
 Display "Enter the amount of the purchase."
 Input purchase
 
 // Calculate the state sales tax.
+StateSalesTaxFunc(Real Ref stateTax)
 Set stateTax = purchase * STATE_TAX_RATE
 
 // Calculate the county sales tax.
+CountySalesTaxFunc(Real Ref countyTax)
 Set countyTax = purchase * COUNTY_TAX_RATE
 
 // Calculate the total tax.
+TotalTaxFunc(Real Ref totalTax)
 Set totalTax = stateTax + countyTax
 
 // Calculate the total of the sale.
+TotalSaleFunc(Real Ref totalSale)
 Set totalSale = purchase + totalTax
 
 // Display information about the sale.
@@ -59,6 +68,14 @@ Display "Sale total: ", totalSale
 ## How Much Insurance?
 
 Many financial experts advise that property owners should insure their homes or buildings for at least 80 percent of the amount it would cost to replace the structure. Design a modular program that asks the user to enter the replacement cost of a building and then displays the minimum amount of insurance he or she should buy for the property.
+
+Main()
+Declare InsuranceAmountMultip = Float 0.8
+Display "Please enter the replacement value of your home."
+Input Real replacementValue
+Call InsuranceCalc()
+	InsuranceCalc()
+		minimumInsurance = InsuranceAmountMultip * replacementValue
 
 ## Automobile Costs
 
@@ -85,6 +102,22 @@ The cost of the paint
 The labor charges
 
 The total cost of the paint job
+
+Main()
+Declare Real laborCharges
+Declare Real costJob
+Declare Real hoursLabor
+Declare Real gallonsPaint
+Display "Please enter the amount of wall space to be painted"
+Input wallSpace
+Display "Please enter the price of the paint per gallon"
+Input paintPrice
+
+LaborChargesFunc()
+
+
+
+
 ```
 ## Monthly Sales Tax
 

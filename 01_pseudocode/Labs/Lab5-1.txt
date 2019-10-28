@@ -1,0 +1,89 @@
+git fetch upstream
+git merge upstream/master
+git status
+git push origin master
+
+
+#Exercise Workbench
+* Design a While loop that lets the user enter a number. The number should be multiplied by 10, and the result stored in a variable named product. The loop should iterate as long as product contains a value less than 100.
+
+main()
+Constant Integer multiplier = 10
+Declare Integer product
+
+While product < 100
+	Display "Enter a number"
+	Input number
+	product = number * 10
+End While
+	
+
+* Design a Do-While loop that asks the user to enter two numbers. The numbers should be added and the sum displayed. The loop should ask the user whether he or she wishes to perform the operation again. If so, the loop should repeat; otherwise it should terminate.
+
+main()
+  Do 
+  Display "Please enter your first number"
+  Input num1
+  Display "Please enter your second number"
+  Input num2
+  call doMath()			<<< Nums in () or sum? Check
+  Display sum
+  Display "Would you like to continue? Please press "y" to indicate yes."
+  Input doAgain
+
+	doMath(sum)
+	sum = num1 + num2
+	end
+  While doAgain == y
+End
+
+* Design a For loop that displays the following set of numbers:
+
+0, 10, 20, 30, 40, 50, . . . , 1000
+
+main()				<<< Hardcode start value?
+declare int currentNum
+declare int nextNum
+  For nextNum 0 to 1000 
+    nextNum = currentNum + 10
+    
+   
+* Design a loop that asks the user to enter a number. The loop should iterate 10 times and keep a running total of the numbers entered.
+
+* Design a For loop that calculates the total of the following series of numbers:
+![image](https://user-images.githubusercontent.com/47218880/67423054-31740800-f599-11e9-9565-031c1f729e1c.png)
+
+* Design a nested loop that displays 10 rows of # characters. There should be 15 # characters in each row.
+
+* Convert the While loop in the following code to a Do-While loop:
+```									>>>> Made changes
+Declare Integer x = 1
+Do
+   Display "Enter a number."
+   Input x
+While x > 0
+End While
+```
+* Convert the Do-While loop in the following code to a While loop:
+```
+Declare String sure
+While sure != "Y" AND sure != "y"
+  Display "Are you sure you want to quit?"
+  Input sure
+
+```
+* Convert the following While loop to a For loop:
+```
+Declare Integer count = 0
+For 0 to 50
+   Set count = count + 1
+   Display "The count is ", count
+End
+```
+* Convert the following For loop to a While loop:
+```
+Declare Integer count
+While 1 < count < 50
+   Display count
+End For
+```
